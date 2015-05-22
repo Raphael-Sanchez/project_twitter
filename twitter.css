@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF RESET */
+
+#barHeader
+{
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	box-shadow: 0px 4px 16px 0px rgba(68, 72, 72, 0.9);
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin-bottom: 20px;
+}
+
+body
+{
+	background-color: #e7e7e7;
+	width: 100%;
+	height: 100%;
+}
+
+h2
+{
+	text-decoration: underline;
+}
+
+a:link
+{
+	text-decoration: none;
+	color: none;
+}
+
+#logo
+{
+	font-family: 'Lobster';
+	line-height: 60px;
+	text-align: center;
+	font-size: 30px;
+	color: #79d4ed;
+}
+
+#userName
+{
+	font-family: 'Calibri';
+	color: black;
+	font-size: 15px;
+}
+
+.box a
+{
+	color: white;
+	min-width: 300px;
+	padding: 10px 0;
+	display: inline-block;
+}
+
+.box
+{
+	display: block;
+	width: 300px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 26px 0px rgba(75, 74, 79, 0.76);
+	text-align: center;
+	background-color: #79d4ed;
+	font-family: 'Calibri';
+	font-size: 25px;
+	margin: 20px auto;
+}
+
+/*#logout
+{
+	text-decoration: underline;
+	font-family: 'Calibri';
+	font-size: 15px;
+	color: white;
+}*/
+
+#myProfil
+{
+	font-family: 'Lobster';
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+#postMsg
+{
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 26px 0px rgba(75, 74, 79, 0.76);
+	text-align: center;
+	background-color: white;
+	font-family: 'Calibri';
+	font-size: 25px;
+	margin-top: 35px;
+}
+
+.msg
+{
+	font-family: 'Calibri';
+	font-size: 15px;
+	position: fixed;
+	margin-top: 250px;
+}
+
+.alert
+{
+	background-color: #79d4ed;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 26px 0px rgba(75, 74, 79, 0.76);
+	width: 255px;
+	margin-left: 15px;
+	font-family: 'Calibri';
+	text-align: center;
+}
