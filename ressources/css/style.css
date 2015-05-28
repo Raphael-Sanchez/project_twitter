@@ -67,6 +67,11 @@ body
 h2
 {
 	text-decoration: underline;
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'Calibri';
+	color: black;
+	font-size: 25px;
 }
 
 a:link
@@ -158,4 +163,14 @@ a:link
 	margin-left: 15px;
 	font-family: 'Calibri';
 	text-align: center;
+}
+
+#msg-list
+{
+	text-align: center;
+	background-color: white;
+	font-family: 'Calibri';
+	font-size: 20px;
+	margin-top: 35px;
+	border-radius: 10px;
 }

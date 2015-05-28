@@ -6,7 +6,7 @@
         // VERIFIE EN BASE DE DONNEE SI LE NOM POSTÉ ET LE PASSWORD SONT DEJA ENREGISTREE 
         if (!empty($resultUser)) {
                 $_SESSION['user'] = $resultUser;
-                header('Location: http://localhost:8888/coaching_php/index.php');
+                header('Location: index.php?page=home');
                 exit;
             // SI OUI ALORS ON ENREGISTRE L'ID ET LE NOM DANS LE $_SESSION ET ON REDIRIGE TOUT CA VERS LA HOME 
         } else {
@@ -19,7 +19,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="twitter.css">
+    <link rel="stylesheet" href="ressources/css/style.css">
 </head>
 <body>
     <div id="barHeader">

@@ -2,10 +2,10 @@
     error_reporting(E_ALL);
     // dÃ©marre la session
     session_start();
-    require_once('bdd.php');
+    require_once('model/Bdd.php');
     // charge le fichier des fonctions PHP
-    require_once('model/twitter.php');
-    require_once('model/message.php');
+    require_once('model/Twitter.php');
+    require_once('model/Message.php');
     // require_once('function.php');
 
     // Liste blanche, c'est notre routing qui correspont Ã  nos pages
@@ -26,6 +26,10 @@
             'controller' => 'login',
             'secure' => false
             ],
+        'logout' => [
+        'controller' => 'logout',
+        'secure' => false
+        ],
         '404' => [
             'controller' => '404',
             'secure' => false
@@ -54,7 +58,7 @@
     }
 
     // Charge la page demandÃ©e
-    $fileController = $routing[$page]['controller'] . '.php';
+    $fileController = 'view/'.$routing[$page]['controller'] . '.php';
     if (file_exists($fileController)) {
         include($fileController);
     } else {

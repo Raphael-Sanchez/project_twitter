@@ -11,6 +11,3 @@
         <input type="submit" value="Post A Message">
     </form>
 </fieldset>
-
-<!-- $userAddMsg = New Functions;
-    $userAddMsg->addMessage($bdd, $_SESSION['user']['id'], $_POST['message']); -->

@@ -24,7 +24,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Registration</title>
-    <link rel="stylesheet" href="twitter.css">
+    <link rel="stylesheet" href="ressources/css/style.css">
 </head>
 <body>
     <div id="barHeader">
